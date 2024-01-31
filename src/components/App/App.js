@@ -4,7 +4,6 @@ import PokemonList from "../PokemonList/PokemonList";
 
 const App = () => {
   const [pokemons, setPokemons] = useState([]);
-  const [searchParams, setSearchParams] = useState('')
 
   useEffect(() => {
     async function getPokemons() {

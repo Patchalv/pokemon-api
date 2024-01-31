@@ -1,13 +1,4 @@
 import React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import Chip from '@mui/material/Chip';
-import Grid from '@mui/material/Grid';
-
-import { CardActionArea, CardActions } from '@mui/material';
-
 
 const PokemonCard = (props) => {
   function capitalize (word) {
@@ -32,6 +23,7 @@ const PokemonCard = (props) => {
         ))}
       </div>
       <div className='pokemon-card-image'>
+        <span className='pokemon-number'>#{props.pokemon.id}</span>
         <img src={props.pokemon.sprites.other.home.front_shiny} alt={props.pokemon.name} />
       </div>
     </div>

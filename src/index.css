@@ -65,9 +65,6 @@ code {
     }
 }
 
-.pokemon-card2 {
-  margin: 10px;
-}
 
 .typeDiv {
   font-size: small;
@@ -98,10 +95,20 @@ code {
 
 .pokemon-card-image {
   width: 50%;
+  z-index: 1;
+  text-align: right;
 }
 
 .pokemon-card-image img {
   width: 100%;
+  z-index: 10;
+}
+
+.pokemon-card-image span {
+  color: rgba(255, 255, 255, 0.314);
+  margin-right: 10px;
+  font-size: 40px;
+  z-index: 0;
 }
 
 .type-box {
