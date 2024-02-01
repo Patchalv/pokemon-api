@@ -33,6 +33,13 @@ code {
   margin-bottom: 50px;
 }
 
+.search-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
 .pokemon-list-container {
   display: grid;
   align-items: center;
